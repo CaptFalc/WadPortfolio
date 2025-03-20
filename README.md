@@ -2,7 +2,7 @@
 
 > An elegant photography portfolio website built with Astro.
 
-[![Presentation](./presentation.jpg)](https://morgankryze.github.io/Portfolio/)
+[![Presentation](./presentation.jpg)](https://morgankryze.github.io/)
 
 ## Getting Started
 

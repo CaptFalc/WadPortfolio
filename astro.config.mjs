@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [svelte(), tailwind()],
   site: 'https://MorganKryze.github.io',
-  base: '/Portfolio',
+  base: '/',
 });

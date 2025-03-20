@@ -45,11 +45,11 @@ const {
     <link
       rel="icon"
       type="image/svg+xml"
-      href="https://raw.githubusercontent.com/MorganKryze/Portfolio/main/src/public/favicon.svg"
+      href="https://raw.githubusercontent.com/MorganKryze/main/src/public/favicon.svg"
     />
     <meta
       property="og:image"
-      content="https://raw.githubusercontent.com/MorganKryze/Portfolio/main/presentation.jpg"
+      content="https://raw.githubusercontent.com/MorganKryze/main/presentation.jpg"
     />
     <!-- TODO: replace blank with real URL -->
     <meta property="og:url" content="" />
@@ -81,11 +81,11 @@ const {
           class="bottom-0 left-0 right-0 p-4 flex items-center justify-between"
         >
           <a
-            href={`/Portfolio/collections/${previousCollectionLink}`}
+            href={`/collections/${previousCollectionLink}`}
             class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium flex items-center"
           >
             <img
-              src="/Portfolio/icons/chevron-left.svg"
+              src="/icons/chevron-left.svg"
               alt="Previous"
               class="h-5 w-5 mr-2"
             />
@@ -100,12 +100,12 @@ const {
           </p>
 
           <a
-            href={`/Portfolio/collections/${nextCollectionLink}`}
+            href={`/collections/${nextCollectionLink}`}
             class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium flex items-center"
           >
             See {nextCollectionTitle}
             <img
-              src="/Portfolio/icons/chevron-right.svg"
+              src="/icons/chevron-right.svg"
               alt="Next"
               class="h-5 w-5 ml-2"
             />
@@ -125,9 +125,9 @@ const {
         document.querySelector('link[rel="icon"]');
       if (link) {
         if (theme === "dark") {
-          link.href = "/Portfolio/dark-favicon.svg";
+          link.href = "/dark-favicon.svg";
         } else {
-          link.href = "/Portfolio/light-favicon.svg";
+          link.href = "/light-favicon.svg";
         }
       }
     };
